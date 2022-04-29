@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "didact";
+    src: url("../font/DidactGothic-Regular.ttf");
+}
+body{
+    margin: 0;
+}
+#menuPrincipale,#navPrincipale{
+    display:flex ;
+    align-items: center;
+    background-color:rgba(0, 15, 15, 0.295);
+    
+    
+}
+#menuPrincipale{
+    /*border: red 1px solid;*/
+    margin: 0;
+    padding: 0;
+ 
+}
+#menuPrincipale>li{
+    list-style: none;
+    margin: 0.5rem;
+    
+}
+.fa-compact-disc{
+    padding:0 1rem 0 1rem;
+    color:gold ;
+    
+}
+
+#menuPrincipale a{
+    font-family: "didact",Arial, Helvetica, sans-serif;
+    text-decoration:none ;
+    color: black;
+    font-weight: 900;
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./assets/css/menu.css">
+   <link rel="stylesheet" href="./assets/css/form.css">
+  
+   <title>Formulaire</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navPrincipale">
+        <i class="fa-solid fa-compact-disc"></i>
+          <ul id="menuPrincipale">
+<li>
+<a href="./index.html">Player</a>
+</li>
+<li>
+<a href="./form.html">Formulaire</a>
+</li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+<form action="" method="">
+
+<div class="from-group">
+  <label for="mp3">Upload your music: </label> 
+  <input type="file" id="mp3" name="mp3">
+ 
+</div>
+<div class="from-group">
+  <label for="cover">Upload your image: </label> 
+  <input type="file" id="cover" >
+</div>
+<div class="from-group">
+  <label for="title">Title: </label> 
+  <input type="text"  placeholder="Title of your song">
+</div>
+<div class="from-group">
+  <label for="artiste">Artiste: </label> 
+  <input type="text"  id="artiste">
+</div>
+<div class="from-group">
+  <label for="genre">Genre: </label> 
+  <input type="radio" id="HipHop" name="genre" ><label for="HipHop">HipHop: </label> 
+  <input type="radio" id="Jazz" name="genre"><label for="Jazz">Jazz: </label> 
+  <input type="radio" id="Rock" name="genre"><label for="Rock">Rock: </label> 
+ <!-- <select name="genre">
+   <option >selectioner un genre</option>
+   <option value="HipHop">HipHop</option>
+   <option value="Jazz">Jazz</option>
+   <option value="Rock">Rock</option>
+ </select> -->
+</div>
+<div class="from-group">
+  <label for="annee">Année: </label> 
+  <select name="genre">
+    <option >Choose the year</option>
+    <option value="1980">1980</option>
+    <option value="1993">1993</option>
+    <option value="1998">1998</option>
+  </select> 
+</div>
+<div class="from-group">
+  <label for="desc">Description: </label> 
+ <textarea name="desc" id="desc" ></textarea>
+</div>
+<div class="from-group">
+  <label for="prix">Prix: </label> 
+  <input type="number" id="prix" name="prix"> 
+</div>
+
+<div class="from-group"><input type="submit" id="submit" name="submited" >
+</div>
+
+</form>
+
+
+    </main>
+  </body>
+</html>

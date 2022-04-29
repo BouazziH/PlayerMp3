@@ -1,0 +1,12 @@
+#playerApp{width: 50%; 
+    border: 10px rgba(13, 221, 100, 0.685) solid;
+    margin: auto;
+}
+
+#cover>img{width: 100%;} 
+#nav{
+    display:flex ;justify-content: space-around;
+}
+
+
+#nav>img{width: 20%;  }

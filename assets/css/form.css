@@ -1,0 +1,12 @@
+.from-group{
+
+display: flex;
+justify-content: center;
+
+}
+
+.from-group>label{
+    display: flex;
+    justify-content: start;
+
+}
